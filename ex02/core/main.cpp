@@ -1,9 +1,11 @@
 #include "MutantStack.hpp"
+#include <list>
 #include <iostream>
 
 int main()
 {
     MutantStack<int> mstack;
+    // std::list<int> mstack;
     mstack.push(5);
     mstack.push(17);
     std::cout << mstack.top() << std::endl;
@@ -13,6 +15,8 @@ int main()
     mstack.push(5);
     mstack.push(737);
     mstack.push(0);
+    // std::list<int>::iterator it = mstack.begin();
+    // std::list<int>::iterator ite = mstack.end();
     MutantStack<int>::iterator it = mstack.begin();
     MutantStack<int>::iterator ite = mstack.end();
     ++it;
