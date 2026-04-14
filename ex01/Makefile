@@ -5,7 +5,6 @@ FLAG		=	-Wall -Wextra -Werror -std=c++98
 
 LISTCPP		=	main.cpp \
 				Span.cpp \
-				maa.cpp \
 
 LISTINCS	=	Span.hpp \
 
