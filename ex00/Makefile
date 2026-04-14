@@ -1,4 +1,4 @@
-NAME		=	Span
+NAME		=	easyfind
 
 CC			=	c++
 FLAG		=	-Wall -Wextra -Werror -std=c++98 
